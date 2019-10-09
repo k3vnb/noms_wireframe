@@ -1,0 +1,80 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+.brand {
+    display: flex;
+    font-size: 40px
+}
+
+.logo {
+    margin-right: 2%;
+}
+
+main {
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 3%;
+}
+.selected-restaurant-info {
+    border: 1px solid black;
+    width: 30%;
+    height: 50px;
+    padding: 5% 0%;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.login-modal {
+    width: 75%;
+    background-color: white;
+    padding: 5%;
+    min-height: 50vh;
+}
+h4 {
+    margin-top: 5%;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+input, textarea, select {
+    min-height: 35px;
+    padding: 2%;
+    font-size: 20px;
+}
+label {
+    margin-top: 5%;
+}
+fieldset {
+    margin-top: 5%;
+}
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+button {
+    height: 30px;
+    margin: 5%;
+    font-size: 20px;
+}
+
+footer {
+    height: 30px;
+    background-color: grey;
+    padding: 3%;
+    text-align: right;
+}

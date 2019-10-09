@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+header {
+    background-color: grey;
+    height: 100px;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.brand {
+    display: flex;
+    font-size: 40px
+}
+.logo {
+    margin-right: 2%;
+}
+nav {
+    margin-right: 10%;
+}
+
+
+main {
+    padding: 3%;
+    background-color: darkgrey;
+    min-height: 95vh;
+}
+.review-list {
+    border: 1px solid black;
+    padding: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.review-list h2 {
+    text-align: center;
+    font-size: 30px;
+}
+.add-new-btn {
+    align-self: flex-end;
+    height: 50px;
+    background: lightgrey;
+
+}
+.review-list-item {
+    padding: 2% 10%;
+    border-bottom: .5px solid lightgrey;
+    display: flex;
+    justify-content: space-between;
+}
+.review-list-item h4 {
+    font-weight: 600;
+    width: 30%;
+}
+.review-item-links {
+    margin-right: 5%;
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    height: 30px;
+    background-color: grey;
+    padding: 3%;
+    text-align: right;
+}
